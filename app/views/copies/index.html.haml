@@ -1,0 +1,11 @@
+-# 分類、検索軸
+.classification
+  .big__classification  キャッチコピー
+  .small__classification  新着
+.contents
+  - @copies.each do |copy|
+    = copy.catchphrase
+    = copy.presentation
+-# ログイン機能実施後に登録して実装
+    -# = copy.user.name
+

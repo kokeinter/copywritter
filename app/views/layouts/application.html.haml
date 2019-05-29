@@ -1,11 +1,25 @@
 !!!
 %html
   %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{ content: "text/html; charset=UTF-8", "http-equiv": "Content-Type" }/
     %title Copywritter
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
+    %header
+      =link_to root_path do
+        %h1.toplogo CopyWritter
+      .headerline
+        .header__line--red
+        .header__line--orange
+        .header__line--yellow
+        .header__line--yellowgreen
+        .header__line--lightblue
+        .header__line--blue
+        .header__line--purple
+
     = yield
+    %footer
+      %p お問い合わせフォーム

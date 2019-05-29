@@ -1,0 +1,80 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "./reset";
+@import "font-awesome";
+
+
+.toplogo{
+  font-family: 'Snell Roundhand',sans-serif;
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+}
+
+.headerline{
+  display: table;
+  width: 100%;
+  padding-top: 10px;
+  .header__line--red{
+    display: table-cell;
+    width: 14%;
+    height: 2px;
+    background-color: red;
+  }
+  .header__line--orange{
+    display: table-cell;
+    width: 14%;
+    height: 2px;
+    background-color: orange;
+    
+  }
+  .header__line--yellow{
+    display: table-cell;
+    
+    width: 14%;
+    height: 2px;
+    background-color: yellow;
+  }
+  .header__line--yellowgreen{
+    display: table-cell;
+    width: 14%;
+    height: 2px;
+    background-color: yellowgreen;
+    
+  }
+  .header__line--lightblue{
+    display: table-cell;
+    width: 14%;
+    height: 2px;
+    background-color: lightblue;
+    
+  }
+  .header__line--blue{
+    display: table-cell;
+    width: 14%;
+    height: 2px;
+    background-color: blue;
+    
+  }
+  .header__line--purple{
+    display: table-cell;
+    width: 14%;
+    height: 2px;
+    background-color: purple;
+    
+  }
+}
