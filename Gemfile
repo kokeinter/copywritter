@@ -79,6 +79,7 @@ gem 'factory_bot_rails'
 gem 'jquery-rails'
 gem 'carrierwave'
 gem 'fog-aws'
+# gem 'bootstrap', '~> 4.1.1'
 
 group :production do
   gem 'unicorn', '5.4.1'
