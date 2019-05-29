@@ -79,6 +79,8 @@ gem 'factory_bot_rails'
 gem 'jquery-rails'
 gem 'carrierwave'
 gem 'fog-aws'
+gem 'haml-rails'
+gem 'erb2haml'
 # gem 'bootstrap', '~> 4.1.1'
 
 group :production do
