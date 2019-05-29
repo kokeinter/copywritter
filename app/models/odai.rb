@@ -1,0 +1,2 @@
+class Odai < ApplicationRecord
+end

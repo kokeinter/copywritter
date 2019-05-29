@@ -1,0 +1,2 @@
+class OdaisController < ApplicationController
+end

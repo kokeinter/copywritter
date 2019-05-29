@@ -1,0 +1,2 @@
+module OdaisHelper
+end
